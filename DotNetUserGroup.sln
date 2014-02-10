@@ -5,7 +5,9 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{5A364FF3-B091-475E-A634-8891705C8E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{BB1BFDEA-AD64-4CDA-A8F3-30196DB97170}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatter", "Chatter\Chatter.csproj", "{1B59D18E-FB5C-4805-B0D0-9DC7A251BCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockServer", "StockServer\StockServer.csproj", "{EEB2F16D-6DE0-4D76-91CF-D2E6BC79ACC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB1BFDEA-AD64-4CDA-A8F3-30196DB97170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB1BFDEA-AD64-4CDA-A8F3-30196DB97170}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB1BFDEA-AD64-4CDA-A8F3-30196DB97170}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB1BFDEA-AD64-4CDA-A8F3-30196DB97170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B59D18E-FB5C-4805-B0D0-9DC7A251BCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B59D18E-FB5C-4805-B0D0-9DC7A251BCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B59D18E-FB5C-4805-B0D0-9DC7A251BCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B59D18E-FB5C-4805-B0D0-9DC7A251BCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB2F16D-6DE0-4D76-91CF-D2E6BC79ACC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB2F16D-6DE0-4D76-91CF-D2E6BC79ACC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB2F16D-6DE0-4D76-91CF-D2E6BC79ACC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB2F16D-6DE0-4D76-91CF-D2E6BC79ACC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BB1BFDEA-AD64-4CDA-A8F3-30196DB97170} = {5A364FF3-B091-475E-A634-8891705C8E39}
+		{1B59D18E-FB5C-4805-B0D0-9DC7A251BCB1} = {5A364FF3-B091-475E-A634-8891705C8E39}
+		{EEB2F16D-6DE0-4D76-91CF-D2E6BC79ACC5} = {5A364FF3-B091-475E-A634-8891705C8E39}
 	EndGlobalSection
 EndGlobal
